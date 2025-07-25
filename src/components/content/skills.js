@@ -15,18 +15,8 @@ import {
   SiMongodb,
   SiGithub,
   SiExpress,
-  SiGraphql,
   SiMysql,
-  SiDocker,
-  SiJenkins,
-  SiAmazonaws,
-  SiRedis,
-  SiNginx,
-  SiKubernetes,
-  SiApachekafka,
-  SiAngular,
   SiSocketdotio,
-  SiPostgresql,
   SiBootstrap,
 } from "react-icons/si";
 
@@ -75,10 +65,7 @@ const skills = [
     name: "ExpressJs",
     Icon: SiExpress,
   },
-  {
-    name: "GraphQL",
-    Icon: SiGraphql,
-  },
+  
   {
     name: "MongoDB",
     Icon: SiMongodb,
@@ -87,10 +74,7 @@ const skills = [
     name: "MySql",
     Icon: SiMysql,
   },
-  {
-    name: "PostgreSQL",
-    Icon: SiPostgresql,
-  },
+   
   {
     name: "Socket.io",
     Icon: SiSocketdotio,
@@ -104,35 +88,6 @@ const skills = [
     Icon: SiGithub,
   },
   {
-    name: "Docker",
-    Icon: SiDocker,
-  },
-  {
-    name: "Kubernetes",
-    Icon: SiKubernetes,
-  },
-  ,
-  {
-    name: "Jenkins",
-    Icon: SiJenkins,
-  },
-  {
-    name: "Aws",
-    Icon: SiAmazonaws,
-  },
-  {
-    name: "Redis",
-    Icon: SiRedis,
-  },
-  {
-    name: "Nginx",
-    Icon: SiNginx,
-  },
-  {
-    name: "Kafka",
-    Icon: SiApachekafka,
-  },
-  {
     name: "C",
     Icon: SiC,
   },
@@ -140,14 +95,7 @@ const skills = [
     name: "C++",
     Icon: SiCplusplus,
   },
-  {
-    name: "Angular",
-    Icon: SiAngular,
-  },
-  {
-    name: "React Native",
-    Icon: SiReact,
-  },
+  
 ];
 
 export default skills;
