@@ -9,7 +9,7 @@ import Proj1 from "../../public/images/projects/Learnserve.png";
 import Proj2 from "../../public/images/projects/Pos.png";
 import Transition from "@/components/Transition";
 import chainweaver from "../../public/images/projects/chainweaver.png"; 
-import portfolio from "../../public/images/projects/portfolio.png";
+import portfolio from "../../public/images/projects/PortFolio.png";
  
 const FeaturedProject = ({ type, tech, title, summary, img, link, github }) => {
   return (
