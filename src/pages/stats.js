@@ -28,7 +28,7 @@ const stats = () => {
       </Head>
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="mx-7">
-          <h2 className="font-bold text-3xl mt-8 w-full text-center md:text-xl md:mt-8">
+          <h2 className="font-bold text-3xl mt-20 w-full text-center md:text-xl md:mt-8">
             Github Contributions
           </h2>
           <p className="my-4 text-gray-700 w-full text-center dark:text-gray-300 mb-8 sm:text-xs">

@@ -3,10 +3,10 @@ import Layout from "./Layout";
 import Link from "next/link";
 const Footer = () => {
   return (
-    <footer className="w-full  bottom-0 h-10 mt-20 border-t-2 border-solid border-dark font-medium text-md dark:text-light dark:border-light sm:text-base">
-      <Layout className="flex items-center justify-between ">
+   <footer className="w-full mt-20 border-t-2 border-solid border-dark dark:border-light font-medium text-md dark:text-light sm:text-base">
+      <div className="w-full h-40 flex items-center justify-center">
         <span>{new Date().getFullYear()} &copy; All Rights Reserved.</span>
-      </Layout>
+      </div>
     </footer>
   );
 };
