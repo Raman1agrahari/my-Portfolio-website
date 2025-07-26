@@ -42,6 +42,9 @@ const about = () => {
                 I’m driven by a passion for innovative problem-solving, whether
                 it&apos;s optimizing web performance or designing solutions that
                 can scale effortlessly.
+                 <br />
+                <br />
+                I have also completed training at Amanda Labs, where I worked as a MERN Developer and built a responsive website. This experience helped me strengthen my skills in real-world development workflows, team collaboration, and agile execution — preparing me to contribute effectively in a professional environment.
               </p>
               <p className=" font-medium my-3">
                 I can help you build your next dream project.

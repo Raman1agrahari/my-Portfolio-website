@@ -28,9 +28,9 @@ export default function Home() {
               <Image
                 src={profilePic}
                 alt="Image"
-                className="w-[90%] h-auto lg:!hidden md:!inline-block md:!w-full mb-8 "
+                className="w-[70%] h-auto lg:!hidden md:!inline-block md:!w-[60] mb-8 "
                 priority
-                sizes="(max-width:500px) 50vw, (max-width:600px) 50vw, 50vw"
+                sizes="(max-width:400px) 50vw, (max-width:400px) 45vw, 45vw"
               />
             </div>
             <div className="w-1/2 flex flex-col items-center self-center lg:!w-full lg:text-center ">

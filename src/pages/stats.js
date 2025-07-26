@@ -13,7 +13,7 @@ export const GithubContributions = () => {
         maxWidth: "100% !important",
         alignItems: "center",
       }}
-      username="suyashagrahari"
+      username="Raman1agrahari"
       colorScheme={mode === "dark" ? "dark" : "light"}
     />
   );
