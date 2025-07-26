@@ -152,7 +152,7 @@ const projects = () => {
                 title="This Portfolio"
                 tech="Tech Stack: JavaScript, NextJS, TailwindCSS, Framer Motion"
                 img={portfolio}
-                link="https://portfolio-website-mu-fawn-27.vercel.app/"
+                link="https://my-portfolio-website-26ad.vercel.app"
                 summary="A Portfolio to showcase my projects."
                 github="https://github.com/Raman1agrahari/my-Portfolio-website"
                 type="Featured project"
@@ -164,5 +164,6 @@ const projects = () => {
     </>
   );
 };
+
 
 export default projects;

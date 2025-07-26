@@ -23,8 +23,8 @@ export default function Home() {
       <Transition />
       <main className="flex font-mont items-center text-dark w-full dark:text-light min-h-screen">
         <Layout className="pt-0 md:!pt-16 sm:!pt-8 mb-[8rem]">
-          <div className="flex items-center justify-between w-full lg:flex-col ">
-            <div className="w-1/2 md:w-full">
+          <div className="flex items-center justify-between w-full lg:flex-col gap-8 ">
+            <div className="w-1/2 md:w-full flex justify-center items-center translate-x-[1px] md:translate-x-0">
               <Image
                 src={profilePic}
                 alt="Image"
