@@ -5,20 +5,12 @@ import Link from "next/link";
 import Layout from "@/components/Layout";
 import Image from "next/image";
 import { GithubIcon } from "@/components/Icon";
- import Proj1 from "../../public/images/projects/LearnServe.png";
-  import Proj2 from "../../public/images/projects/Pos.png";
-// import Proj3 from "../../public/images/projects/proj3.png";
-// import Proj4 from "../../public/images/projects/proj4.png";
-// import Proj5 from "../../public/images/projects/proj5.png";
-// import Proj6 from "../../public/images/projects/proj6.png";
-// import Proj7 from "../../public/images/projects/proj7.png";
-// import Proj8 from "../../public/images/projects/proj8.png";
+import Proj1 from "../../public/images/projects/Learnserve.png";
+import Proj2 from "../../public/images/projects/Pos.png";
 import Transition from "@/components/Transition";
-import chainweaver from "../../public/images/projects/chainweaver.png";
-//import ytmp4 from "../../public/images/projects/ytmp4.png";
-// import ytmp3 from "../../public/images/projects/ytmp3.png";
-// import resumeParser from "../../public/images/projects/resumeParser.png";
-// import aiDetector from "../../public/images/projects/ai-detector.png";
+import chainweaver from "../../public/images/projects/chainweaver.png"; 
+import portfolio from "../../public/images/projects/portfolio.png";
+ 
 const FeaturedProject = ({ type, tech, title, summary, img, link, github }) => {
   return (
     <article className="w-full flex item-center relative rounded-br-2xl justify-between rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12 dark:bg-dark dark:border-light lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4">
@@ -152,6 +144,17 @@ const projects = () => {
                 summary="Worked as a Backend Developer, where I developed the complete order workflow, authentication system, and data management APIs. I built modular REST APIs using Next.js 14 App Router (app/api) with secure JWT-based authentication, and implemented OTP-based login and password reset flows with custom APIs for code generation, validation, and expiry. I managed dynamic checkout flows using [cartId] dynamic routes for cart-specific order processing and wrote Mongoose-based database seeding scripts to initialize products, users, and cart data. For the frontend, I integrated Redux Toolkit Query with Axios to manage API interactions and ensured secure session persistence using localStorage for a smooth and consistent checkout experience."
                 link="https://github.com/Theamansinghrajput/pos-system/tree/raman_1.0.1"
                 github="https://github.com/Theamansinghrajput/pos-system/tree/raman_1.0.1"
+                type="Featured project"
+              />
+            </div>
+              <div className="col-span-12 md:col-span-12">
+              <FeaturedProject
+                title="This Portfolio"
+                tech="Tech Stack: JavaScript, NextJS, TailwindCSS, Framer Motion"
+                img={portfolio}
+                link="https://portfolio-website-mu-fawn-27.vercel.app/"
+                summary="A Portfolio to showcase my projects."
+                github="https://github.com/Raman1agrahari/my-Portfolio-website"
                 type="Featured project"
               />
             </div>
