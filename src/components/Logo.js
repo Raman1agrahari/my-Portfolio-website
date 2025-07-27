@@ -21,7 +21,7 @@ const Logo = () => {
           transition: { repeat: Infinity },
         }}
       >
-        SA
+        RA
       </MotionLink>
     </div>
   );
