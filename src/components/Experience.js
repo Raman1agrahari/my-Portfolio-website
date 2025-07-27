@@ -67,7 +67,7 @@ const Experience = () => {
           className="absolute left-9 top-1 w-[4px] h-full bg-dark origin-top dark:bg-light md:w-[2px] md:left-[30px] xs:left-[20px]"
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
-          {/* HireQuotient Experience */}
+          {/* Amandy Labs Private Limited Experience */}
           <Details
             position="Mern Stack Developer"
             company="Amandy Labs Private Limited"
@@ -78,45 +78,9 @@ const Experience = () => {
             companyLink="https://amandylabs.com"
             certificate="certificate"
           />
-          {/* Health Umbrella Foundation Experience */}
-          <Details
-            position="Mern Developer"
-            company="Health Umbrella Foundation"
-            time="August'2022 - July'2023"
-            address="Remote"
-            work="As a MERN developer at Health Umbrella Foundation, I specialize in MongoDB, Express, React, and Node.js to create user-friendly web applications for the healthcare sector. I focus on improving security by addressing vulnerabilities like XSS, CSRF attacks, query injections, and DDoS attacks. Additionally, I optimize website performance using techniques such as React's useMemo, useCallback hooks, and code splitting, ensuring fast load times and smooth user experiences."
-            tech="Tech: ReactJs, Tailwind CSS, Redux Toolkit, NodeJs, ExpressJs, MongoDB, REST API."
-            companyLink="#"
-            certificate="certificate"
-          />
         </ul>
       </div>
-
-      <h3 className="font-bold text-5xl mb-20 w-full text-center md:text-6xl xs:text-4xl md:mb-16">
-        Internship
-      </h3>
-      <div
-        ref={ref}
-        className="w-[75%] mx-auto relative lg:w-[90%] md:w-full mb-20">
-        <motion.div
-          style={{ scaleY: scrollYProgress }}
-          className="absolute left-9 top-1 w-[4px] h-full bg-dark origin-top dark:bg-light md:w-[2px] md:left-[30px] xs:left-[20px]"
-        />
-        <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
-          {/* Mern Stack Developer Intern - Content Creation */}
-          <Details
-            position="Mern Stack Developer Intern"
-            company="Content Creation"
-            time="December 2023 - February 2024"
-            address="Delhi"
-            work="Developed a secure backend authentication system using Node.js, Express, and MongoDB, ensuring a safe login process for users. Implemented website security best practices to prevent vulnerabilities like XSS and CSRF, enhancing overall security measures. Created and maintained responsive frontend pages with React for a seamless user experience across various devices. Managed application states efficiently using Redux Toolkit, improving data flow and platform performance. Collaborated with team members to prioritize security, performance, and scalability in all development efforts."
-            tech="Tech: NodeJs, ExpressJs, MongoDB, ReactJs, Redux Toolkit."
-            companyLink="#"
-            certificate="certificate"
-          />
-        </ul>
-      </div>
-    </div>
+</div>
   );
 };
 
