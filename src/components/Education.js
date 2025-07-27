@@ -43,7 +43,7 @@ const Education = () => {
           <Details
             type="Bachelor of Technology"
             place="Dr. Ambedkar Institute of Technology for Divyangjan"
-            time="Nov'2021-Jun'2025"
+            time="Nov'2021-Jul'2025"
             info="Kanpur, Uttar Pradesh"
           />
         </ul>
