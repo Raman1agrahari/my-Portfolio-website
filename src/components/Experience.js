@@ -69,7 +69,7 @@ const Experience = () => {
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           {/* Amandy Labs Private Limited Experience */}
           <Details
-            position="Mern Stack Developer (Onsite Training)"
+            position="Mern Stack Developer (Onsite Internship)"
             company="Amandy Labs Private Limited"
             time="May 2025 - Present"
             address="Kanpur"
