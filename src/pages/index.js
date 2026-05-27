@@ -37,19 +37,19 @@ export default function Home() {
 
             <div className="w-1/2 flex flex-col items-center self-center lg:!w-full lg:text-center ">
               <AnimatedText
-                text="Hi, I'm Raman, a passionate Web Developer."
+                text="Hi, I'm Raman, a Full Stack Web Developer."
                 className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
-              <p className="my-4 text-base  font-medium md:text-sm sm:text-xs">
-                I turn creative ideas into reality with responsive front-end
-                designs and scalable solutions. I focus on building efficient
-                systems that handle increasing demands seamlessly, ensuring high
-                performance and reliability across both front-end and back-end
-                development.
+
+              <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
+                I build responsive and scalable web applications using modern
+                technologies like React, Next.js, Node.js, Express, and MongoDB.
+                Passionate about creating clean user experiences, efficient backend
+                systems, and high-performance full-stack solutions.
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link
-                  href="https://drive.google.com/file/d/1qeQ91o3ZYfzdADYADAEZckEgVbpNlhNF/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1nkPb3F_l7gm89jTP9i5ABuCbdY_MpYIq/view?usp=drivesdk"
                   target={"_blank"}
                   download={true}
                   className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark  border-solid border-transparent hover:border-dark border-2 dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light md:p-2 md-px-4 md:text-base ">

@@ -67,20 +67,19 @@ const Experience = () => {
           className="absolute left-9 top-1 w-[4px] h-full bg-dark origin-top dark:bg-light md:w-[2px] md:left-[30px] xs:left-[20px]"
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
-          {/* Amandy Labs Private Limited Experience */}
           <Details
-            position="Mern Stack Developer (Onsite Internship)"
+            position="MERN Stack Developer (Onsite Internship)"
             company="Amandy Labs Private Limited"
-            time="May 2025 - Present"
+            time="Jul 2025 – Dec 2025"
             address="Kanpur"
-            work="At Amandy Labs Private Limited,Built a full-stack POS billing platform and a multi-chain Web3 DApp backend. Developed secure REST APIs using Next.js 14 App Router, implemented JWT and OTP-based authentication, and managed dynamic checkout flows with [cartId] routing. Integrated Redux Toolkit Query for frontend API handling and wrote Mongoose seeding scripts for product and user data. For the DApp, implemented wallet-based login using wagmi, built protected routes for portfolio and token tracking, and used MongoDB with Mongoose for scalable data modeling."
-            tech="Tech: ReactJs, Tailwind CSS, NodeJs, ExpressJs, MongoDB, Strapi CMS, AI-enhanced tools."
-            companyLink="https://amandylabs.com"
+            work="Built a scalable full-stack POS billing platform using Next.js, React.js, Node.js, Express.js, MongoDB, and TypeScript. Developed secure JWT and OTP-based authentication, REST APIs, dynamic checkout workflows, and Redux Toolkit Query integration. Worked with Docker, AWS EC2, AWS S3, GitHub Actions, CI/CD fundamentals, Nginx, Apache, and Redis for deployment, server configuration, caching, and performance optimization."
+            tech="Tech: React.js, Next.js, Tailwind CSS, TypeScript, Node.js, Express.js, MongoDB, Redux Toolkit, REST APIs, Docker, AWS, GitHub Actions, Nginx, Redis."
+            companyLink="https://drive.google.com/file/d/17p4nlhjfxDzLCvOBSBka8kXfKrvuj-o4/view"
             certificate="certificate"
           />
         </ul>
       </div>
-</div>
+    </div>
   );
 };
 

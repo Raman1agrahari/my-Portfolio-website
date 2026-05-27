@@ -1,4 +1,4 @@
- import React from "react";
+import React from "react";
 import Head from "next/head";
 import Layout from "@/components/Layout";
 import Image from "next/image";
@@ -23,28 +23,38 @@ const about = () => {
                 About me
               </h2>
               {/* <p className=" font-medium"> Hi, I am Suyash.</p> */}
-              <p className=" font-medium">
-                Hi, I&apos;m Raman, a dedicated Full Stack Developer with a
-                strong foundation in both frontend and backend technologies. I
-                specialize in creating seamless, scalable web applications using
-                modern frameworks and technologies. My frontend expertise
-                includes HTML, CSS, JavaScript, React, Redux Toolkit,
-                TypeScript, Bootstrap, and Tailwind CSS, enabling me to design
-                responsive and user-friendly interfaces.
+              <p className="font-medium">
+                Hi, I&apos;m Raman, a Full Stack Developer with a strong foundation
+                in frontend, backend, and DevOps fundamentals. I build responsive,
+                scalable, and high-performance web applications using modern
+                technologies.
+
                 <br />
                 <br />
+
+                My frontend expertise includes React, Next.js, TypeScript,
+                Tailwind CSS, Redux Toolkit, HTML, CSS, and JavaScript,
+                helping me create clean and interactive user interfaces.
+
+                <br />
+                <br />
+
                 On the backend, I work with Node.js, Express.js, REST APIs,
-                 and databases like MongoDB, SQL.
-                I&apos;m also well-versed in database sharding and replication
-                to ensure optimized performance and reliability at scale.
+                MongoDB, SQL, Docker, Git, and cloud deployment workflows.
+
                 <br />
                 <br />
-                I’m driven by a passion for innovative problem-solving, whether
-                it&apos;s optimizing web performance or designing solutions that
-                can scale effortlessly.
-                 <br />
+
+                I completed a Web Development internship at Amandy Labs Private Limited,
+                where I worked as a MERN Stack Developer and developed responsive
+                web applications. This experience strengthened my practical
+                development skills and understanding of real-world workflows.
+
                 <br />
-                I have also completed training at Amanda Labs, where I worked as a MERN Developer and built a responsive website. This experience helped me strengthen my skills in real-world development workflows, team collaboration, and agile execution — preparing me to contribute effectively in a professional environment.
+                <br />
+
+                I enjoy solving problems, optimizing application performance,
+                and building efficient full-stack solutions.
               </p>
               <p className=" font-medium my-3">
                 I can help you build your next dream project.

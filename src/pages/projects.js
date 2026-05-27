@@ -8,9 +8,9 @@ import { GithubIcon } from "@/components/Icon";
 import Proj1 from "../../public/images/projects/Learnserve.png";
 import Proj2 from "../../public/images/projects/Pos.png";
 import Transition from "@/components/Transition";
-import chainweaver from "../../public/images/projects/chainweaver.png"; 
+import chainweaver from "../../public/images/projects/chainweaver.png";
 import portfolio from "../../public/images/projects/PortFolio.png";
- 
+
 const FeaturedProject = ({ type, tech, title, summary, img, link, github }) => {
   return (
     <article className="w-full flex item-center relative rounded-br-2xl justify-between rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12 dark:bg-dark dark:border-light lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4">
@@ -114,15 +114,15 @@ const projects = () => {
       <main className="w-full mb-16 flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
-            <div className="col-span-12">
+            <div className="col-span-12 md:col-span-12">
               <FeaturedProject
-                title="Chainweaver-Multi-Chain DApp Hub"
-                tech="Tech Stack:, wagmi, ReactJs, Tailwind CSS, Redux, NodeJs, ExpressJs, MongoDB, Rest API, JWT Authentication, Bcrypt."
-                img={chainweaver} // Assuming you have an image for this project
-                summary="Engineered the backend infrastructure for a Web3 decentralized application (ChainWeaver) that supports wallet-based authentication and token tracking. Implemented wallet login using wagmi and JWT, managing secure sessions via localStorage for protected route access. Developed modular API services for portfolio management, trading history, and token tracking, enabling real-time dashboard updates. Used MongoDB with Mongoose for scalable and efficient multi-chain data modeling, and collaborated with the frontend team to deliver dynamic dashboards and seamless user experiences."
-                link="https://github.com/Theamansinghrajput/amandyLabs_Dapp/tree/raman-1.0.1" // Your live link
-                github="https://github.com/Theamansinghrajput/amandyLabs_Dapp/tree/raman-1.0.1" // Your GitHub repo link
-                type="Featured project"
+                title="POS System - Full Stack Billing and Checkout Platform"
+                img={Proj2}
+                tech="Tech Stack: TypeScript, React.js, Next.js, Redux Toolkit, Shadcn UI, Node.js, Express.js, MongoDB, REST APIs, Docker, AWS EC2, AWS S3, GitHub Actions, Nginx, Redis, CI/CD"
+                summary="Developed a scalable full-stack POS billing and checkout platform using Next.js, React.js, Node.js, Express.js, MongoDB, and TypeScript. Built secure JWT and OTP-based authentication workflows with modular REST APIs for order management, cart handling, billing, and user operations. Implemented dynamic checkout flows using cartId-based routing and integrated Redux Toolkit Query with Axios for optimized frontend API handling. Worked with MongoDB and Mongoose for scalable database management and seeding scripts. Containerized the application using Docker and deployed services on AWS EC2 with AWS S3 media storage integration. Configured GitHub Actions and CI/CD workflows for automated build and deployment processes, while utilizing Nginx and Redis for reverse proxy setup, caching, and performance optimization."
+                link="https://github.com/Theamansinghrajput/pos-system/tree/raman_1.0.1"
+                github="https://github.com/Theamansinghrajput/pos-system/tree/raman_1.0.1"
+                type="Featured Project"
               />
             </div>
             <div className="col-span-12">
@@ -136,18 +136,19 @@ const projects = () => {
                 type="Featured project"
               />
             </div>
-            <div className="col-span-12 md:col-span-12">
+
+            <div className="col-span-12">
               <FeaturedProject
-                title="Pos-System-Full Stack Billing and Checkout Platform"
-                img={Proj2}
-                tech="Tech Stack: TypeScript, ReactJs, Shadcn Ui, Redux Toolkit, Next.js, REST API"
-                summary="Worked as a Backend Developer, where I developed the complete order workflow, authentication system, and data management APIs. I built modular REST APIs using Next.js 14 App Router (app/api) with secure JWT-based authentication, and implemented OTP-based login and password reset flows with custom APIs for code generation, validation, and expiry. I managed dynamic checkout flows using [cartId] dynamic routes for cart-specific order processing and wrote Mongoose-based database seeding scripts to initialize products, users, and cart data. For the frontend, I integrated Redux Toolkit Query with Axios to manage API interactions and ensured secure session persistence using localStorage for a smooth and consistent checkout experience."
-                link="https://github.com/Theamansinghrajput/pos-system/tree/raman_1.0.1"
-                github="https://github.com/Theamansinghrajput/pos-system/tree/raman_1.0.1"
+                title="Chainweaver-Multi-Chain DApp Hub"
+                tech="Tech Stack:, wagmi, ReactJs, Tailwind CSS, Redux, NodeJs, ExpressJs, MongoDB, Rest API, JWT Authentication, Bcrypt."
+                img={chainweaver} // Assuming you have an image for this project
+                summary="Engineered the backend infrastructure for a Web3 decentralized application (ChainWeaver) that supports wallet-based authentication and token tracking. Implemented wallet login using wagmi and JWT, managing secure sessions via localStorage for protected route access. Developed modular API services for portfolio management, trading history, and token tracking, enabling real-time dashboard updates. Used MongoDB with Mongoose for scalable and efficient multi-chain data modeling, and collaborated with the frontend team to deliver dynamic dashboards and seamless user experiences."
+                link="https://github.com/Theamansinghrajput/amandyLabs_Dapp/tree/raman-1.0.1" // Your live link
+                github="https://github.com/Theamansinghrajput/amandyLabs_Dapp/tree/raman-1.0.1" // Your GitHub repo link
                 type="Featured project"
               />
             </div>
-              <div className="col-span-12 md:col-span-12">
+            <div className="col-span-12 md:col-span-12">
               <FeaturedProject
                 title="This Portfolio"
                 tech="Tech Stack: JavaScript, NextJS, TailwindCSS, Framer Motion"
